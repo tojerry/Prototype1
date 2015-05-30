@@ -55,15 +55,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Locked: 1
-  Title: EFFECT HELP
-  HelpText: 'This effect is meant to be used with a Mesh.
-
-
-    Change it in the Particle System Inspector:
-
-    - Shape tab
-
-    - Mesh property'
+  Title: 4546464543542048454c50
+  HelpText: 5468697320656666656374206973206d65616e7420746f206265207573656420776974682061204d6573682e0a0a4368616e676520697420696e20746865205061727469636c652053797374656d20496e73706563746f723a0a2d205368617065207461620a2d204d6573682070726f7065727479
   MsgType: 1
 --- !u!198 &19800000
 ParticleSystem:
