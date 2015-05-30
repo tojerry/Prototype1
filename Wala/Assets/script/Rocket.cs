@@ -7,27 +7,25 @@ public class Rocket : MonoBehaviour {
 	bool engineActive = false;
 	public GameObject rocketEffect;
 	float speed = 0.5f;
-	float r = 100f;
+	float r = 10f;
 	public Vector3 circleCenter;
 
 	// Use this for initialization
 	void Start () 
 	{
-		if( rocket==null )
-			rocket = this.gameObject;
-
-		//rocketEffect.SetActive( !rocketEffect.activeSelf);
+		rocket = this.gameObject;
+		rocketEffect.SetActive(false);
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
 		if(Input.GetKeyDown("space"))
-		   {
-				engineActive = !engineActive;
-				rocketEffect.SetActive( rocketEffect.activeSelf);
-			}
-		if(engineActive)
+		{
+			rocketEffect.SetActive(true);
+		}
+
+		if(rocketEffect.activeSelf)
 		{
 	
 			float t = Time.time * speed;
@@ -38,7 +36,6 @@ public class Rocket : MonoBehaviour {
 
 			//rocket.AddForce( (transform.up * speed));
 		}
-	
 	}
 }
 

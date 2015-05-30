@@ -7,7 +7,7 @@ Shader "Toon/Basic" {
 
 
 	SubShader {
-		Tags {"RenderType"="Transparent" }
+		Tags {"Queue"="Transparent" "RenderType"="Transparent" }
 		Pass {
 			Name "BASE"
 			Cull Off
