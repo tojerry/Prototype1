@@ -216,6 +216,10 @@ Prefab:
       propertyPath: m_Name
       value: RoadCover
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 5b74925b76b0ca64cbc0de8d9b48cb75, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5b74925b76b0ca64cbc0de8d9b48cb75, type: 3}
   m_IsPrefabParent: 0
@@ -1951,7 +1955,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27876b094265245cdbe7341ee99c0ec3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.83800006
+      value: 1.8642
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27876b094265245cdbe7341ee99c0ec3, type: 3}
       propertyPath: m_LocalPosition.z
